@@ -1,0 +1,13 @@
+<!-- <template>
+    <lightning-button label="Show Text" title="Show text" onclick={showText}>
+    </lightning-button>
+    <lightning-input-field label="Your name" name="name"></lightning-input-field>
+  </template>
+  
+   -->
+
+   <template>
+    <lightning-input type="text" label="Enter your name" value={name} onchange={handleInputChange}></lightning-input>
+    <lightning-button label="Button" onclick={showWelcomeMessage}></lightning-button>
+    <div>{welcomeMessage}</div>
+</template>
